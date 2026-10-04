@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: white;
+    color: black;
+}
+
+.pagina {
+    text-align: center;
+    padding: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f46e5;
+    color: white;
+    cursor: pointer;
+}
+
+/* Tema escuro */
+
+body.escuro {
+    background-color: #111827;
+    color: white;
+}
+
+body.escuro button {
+    background-color: #6366f1;
+}
+
